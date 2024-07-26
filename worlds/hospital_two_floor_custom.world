@@ -7591,7 +7591,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://aws_robomaker_hospital_floor_02_walls/meshes/aws_robomaker_hospital_floor_02_walls_collision.dae</uri>
+              <uri>model://aws_robomaker_hospital_floor_02_walls/meshes/aws_robomaker_hospital_floor_02_walls_visual.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
