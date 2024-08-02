@@ -16537,10 +16537,10 @@
       <static>1</static>
     </model>
     <state world_name='world'>
-      <sim_time>9 23000000</sim_time>
-      <real_time>0 0</real_time>
-      <wall_time>1721875043 57080010</wall_time>
-      <iterations>0</iterations>
+      <sim_time>357 453000000</sim_time>
+      <real_time>409 399225530</real_time>
+      <wall_time>1722600267 695937073</wall_time>
+      <iterations>348430</iterations>
       <model name='AdjTable_1'>
         <pose>0 -0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -18356,6 +18356,114 @@
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
+      </model>
+      <model name='aws_world_extra_landmarks'>
+        <pose>6.85794 17.4773 1.67806 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <model name='Chair'>
+          <pose>4.23213 15.5235 0 0 -0 1.5198</pose>
+          <scale>1 1 1</scale>
+          <link name='body'>
+            <pose>4.23213 15.5235 0 0 -0 3.0906</pose>
+            <velocity>0 0 0 0 -0 0</velocity>
+            <acceleration>0 0 0 0 -0 0</acceleration>
+            <wrench>0 0 0 0 -0 0</wrench>
+          </link>
+        </model>
+        <model name='Chair_0'>
+          <pose>3.56872 15.5244 -0 0 -0 1.56001</pose>
+          <scale>1 1 1</scale>
+          <link name='body'>
+            <pose>3.56872 15.5244 -0 0 -0 3.13081</pose>
+            <velocity>0 0 0 0 -0 0</velocity>
+            <acceleration>0 0 0 0 -0 0</acceleration>
+            <wrench>0 0 0 0 -0 0</wrench>
+          </link>
+        </model>
+        <model name='MopCart3'>
+          <pose>3.45364 19.298 -0 0 -0 0</pose>
+          <scale>1 1 1</scale>
+          <link name='link'>
+            <pose>3.45364 19.298 -0 0 -0 0</pose>
+            <velocity>0 0 0 0 -0 0</velocity>
+            <acceleration>0 0 0 0 -0 0</acceleration>
+            <wrench>0 0 0 0 -0 0</wrench>
+          </link>
+        </model>
+        <model name='StorageRackCoverOpen'>
+          <pose>3.3714 18.2655 -0.00045 0 0 -1.57646</pose>
+          <scale>1 1 1</scale>
+          <link name='link'>
+            <pose>3.3714 18.2655 -0.00045 0 0 -1.57646</pose>
+            <velocity>0 0 0 0 -0 0</velocity>
+            <acceleration>0 0 0 0 -0 0</acceleration>
+            <wrench>0 0 0 0 -0 0</wrench>
+          </link>
+        </model>
+        <model name='aws_robomaker_residential_PortraitA_02'>
+          <pose>12.4187 17.9858 4.50384 0 0 -1.57202</pose>
+          <scale>1 1 1</scale>
+          <link name='link'>
+            <pose>12.4187 17.9858 4.50384 0 0 -1.57202</pose>
+            <velocity>0 0 0 0 -0 0</velocity>
+            <acceleration>0 0 0 0 -0 0</acceleration>
+            <wrench>0 0 0 0 -0 0</wrench>
+          </link>
+        </model>
+        <model name='aws_robomaker_residential_PortraitC_01'>
+          <pose>11.6103 20.9339 4.51273 0 -0 0</pose>
+          <scale>1 1 1</scale>
+          <link name='link'>
+            <pose>11.6103 20.9339 4.51273 0 -0 0</pose>
+            <velocity>0 0 0 0 -0 0</velocity>
+            <acceleration>0 0 0 0 -0 0</acceleration>
+            <wrench>0 0 0 0 -0 0</wrench>
+          </link>
+        </model>
+        <model name='aws_robomaker_residential_PortraitD_02'>
+          <pose>3.91473 15.0715 1.40527 0 -0 0</pose>
+          <scale>1 1 1</scale>
+          <link name='link'>
+            <pose>3.91473 15.0715 1.40527 0 -0 0</pose>
+            <velocity>0 0 0 0 -0 0</velocity>
+            <acceleration>0 0 0 0 -0 0</acceleration>
+            <wrench>0 0 0 0 -0 0</wrench>
+          </link>
+        </model>
+        <model name='aws_robomaker_residential_Trash_01'>
+          <pose>12.2939 17.216 3.00307 0 -0 0</pose>
+          <scale>1 1 1</scale>
+          <link name='link'>
+            <pose>12.2939 17.216 3.00307 0 -0 0</pose>
+            <velocity>0 0 0 0 -0 0</velocity>
+            <acceleration>0 0 0 0 -0 0</acceleration>
+            <wrench>0 0 0 0 -0 0</wrench>
+          </link>
+        </model>
+      </model>
+      <model name='aws_world_vending_machine'>
+        <pose>3.39271 17.6183 3.01272 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <model name='VendingMachine'>
+          <pose>3.39085 18.1129 3.00248 0 -0 0</pose>
+          <scale>1 1 1</scale>
+          <link name='body'>
+            <pose>3.39085 18.1129 3.00248 0 -0 0</pose>
+            <velocity>0 0 0 0 -0 0</velocity>
+            <acceleration>0 0 0 0 -0 0</acceleration>
+            <wrench>0 0 0 0 -0 0</wrench>
+          </link>
+        </model>
+        <model name='VendingMachine_0'>
+          <pose>3.39457 17.1236 3.02296 0 -0 0</pose>
+          <scale>1 1 1</scale>
+          <link name='body'>
+            <pose>3.39457 17.1236 3.02296 0 -0 0</pose>
+            <velocity>0 0 0 0 -0 0</velocity>
+            <acceleration>0 0 0 0 -0 0</acceleration>
+            <wrench>0 0 0 0 -0 0</wrench>
+          </link>
+        </model>
       </model>
       <model name='floor_1_AdjTable_1'>
         <pose>0 -0 0 0 -0 0</pose>
@@ -20178,13 +20286,13 @@
         </link>
       </model>
       <model name='unit_box'>
-        <pose>11.6691 20.1069 -0.356665 0 0 -0.000328</pose>
+        <pose>11.6699 20.1068 -0.356665 0 0 -0.000658</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>11.6691 20.1069 -0.356665 0 0 -0.000328</pose>
+          <pose>11.6699 20.1068 -0.356665 0 0 -0.000658</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <acceleration>-5.1e-05 -5.6e-05 -25.9195 -0.00011 9.4e-05 -1e-06</acceleration>
+          <wrench>-5.1e-05 -5.6e-05 -25.9195 0 -0 0</wrench>
         </link>
       </model>
       <light name='sun'>
@@ -20193,7 +20301,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>-2.46352 20.959 -5.95955 0 -0.321794 -0.067806</pose>
+        <pose>12.64 17.9997 11.6335 -0 0.861925 -2.94724</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -20440,6 +20548,488 @@
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose>-11.8157 20.1429 0.5 0 -0 0</pose>
+    </model>
+    <model name='aws_world_vending_machine'>
+      <model name='VendingMachine'>
+        <link name='body'>
+          <pose>0 0 0 0 -0 0</pose>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://VendingMachine/meshes/VendingMachine.obj</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://VendingMachine/meshes/VendingMachine.obj</uri>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <self_collide>0</self_collide>
+          <inertial>
+            <pose>0 0 0 0 -0 0</pose>
+            <inertia>
+              <ixx>1</ixx>
+              <ixy>0</ixy>
+              <ixz>0</ixz>
+              <iyy>1</iyy>
+              <iyz>0</iyz>
+              <izz>1</izz>
+            </inertia>
+            <mass>1</mass>
+          </inertial>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <pose>-0.001865 0.494609 -0.010237 0 -0 0</pose>
+      </model>
+      <model name='VendingMachine_0'>
+        <link name='body'>
+          <pose>0 0 0 0 -0 0</pose>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://VendingMachine/meshes/VendingMachine.obj</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://VendingMachine/meshes/VendingMachine.obj</uri>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <self_collide>0</self_collide>
+          <inertial>
+            <pose>0 0 0 0 -0 0</pose>
+            <inertia>
+              <ixx>1</ixx>
+              <ixy>0</ixy>
+              <ixz>0</ixz>
+              <iyy>1</iyy>
+              <iyz>0</iyz>
+              <izz>1</izz>
+            </inertia>
+            <mass>1</mass>
+          </inertial>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <pose>0.001856 -0.494685 0.010238 0 -0 0</pose>
+      </model>
+      <static>0</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose>3.39271 17.6183 3.01272 0 -0 0</pose>
+    </model>
+    <model name='aws_world_extra_landmarks'>
+      <model name='Chair'>
+        <link name='body'>
+          <pose>0 0 0 0 -0 1.5708</pose>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://Chair/meshes/Chair.obj</uri>
+                <scale>0.00817 0.00817 0.00817</scale>
+              </mesh>
+            </geometry>
+          </visual>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://Chair/meshes/Chair.obj</uri>
+                <scale>0.00817 0.00817 0.00817</scale>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <self_collide>0</self_collide>
+          <inertial>
+            <pose>0 0 0 0 -0 0</pose>
+            <inertia>
+              <ixx>1</ixx>
+              <ixy>0</ixy>
+              <ixz>0</ixz>
+              <iyy>1</iyy>
+              <iyz>0</iyz>
+              <izz>1</izz>
+            </inertia>
+            <mass>1</mass>
+          </inertial>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <pose>-2.62581 -1.95379 -1.67806 0 -0 1.5198</pose>
+      </model>
+      <model name='Chair_0'>
+        <link name='body'>
+          <pose>0 0 0 0 -0 1.5708</pose>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://Chair/meshes/Chair.obj</uri>
+                <scale>0.00817 0.00817 0.00817</scale>
+              </mesh>
+            </geometry>
+          </visual>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://Chair/meshes/Chair.obj</uri>
+                <scale>0.00817 0.00817 0.00817</scale>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <self_collide>0</self_collide>
+          <inertial>
+            <pose>0 0 0 0 -0 0</pose>
+            <inertia>
+              <ixx>1</ixx>
+              <ixy>0</ixy>
+              <ixz>0</ixz>
+              <iyy>1</iyy>
+              <iyz>0</iyz>
+              <izz>1</izz>
+            </inertia>
+            <mass>1</mass>
+          </inertial>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <pose>-3.28922 -1.95294 -1.67806 0 -0 1.56001</pose>
+      </model>
+      <model name='MopCart3'>
+        <link name='link'>
+          <pose>0 0 0 0 -0 0</pose>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://MopCart3/meshes/MopCart3.obj</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://MopCart3/meshes/MopCart3.obj</uri>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <self_collide>0</self_collide>
+          <inertial>
+            <pose>0 0 0 0 -0 0</pose>
+            <inertia>
+              <ixx>1</ixx>
+              <ixy>0</ixy>
+              <ixz>0</ixz>
+              <iyy>1</iyy>
+              <iyz>0</iyz>
+              <izz>1</izz>
+            </inertia>
+            <mass>1</mass>
+          </inertial>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <pose>-3.4043 1.82067 -1.67806 0 -0 0</pose>
+      </model>
+      <model name='StorageRackCoverOpen'>
+        <link name='link'>
+          <pose>0 0 0 0 -0 0</pose>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://StorageRackCoverOpen/meshes/StorageRackCoverOpen.obj</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://StorageRackCoverOpen/meshes/StorageRackCoverOpen.obj</uri>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <self_collide>0</self_collide>
+          <inertial>
+            <pose>0 0 0 0 -0 0</pose>
+            <inertia>
+              <ixx>1</ixx>
+              <ixy>0</ixy>
+              <ixz>0</ixz>
+              <iyy>1</iyy>
+              <iyz>0</iyz>
+              <izz>1</izz>
+            </inertia>
+            <mass>1</mass>
+          </inertial>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <pose>-3.48654 0.788174 -1.67851 0 0 -1.57646</pose>
+      </model>
+      <model name='aws_robomaker_residential_PortraitA_02'>
+        <link name='link'>
+          <inertial>
+            <mass>1</mass>
+          </inertial>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_collision.DAE</uri>
+                <scale>1 1 1</scale>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_visual.DAE</uri>
+              </mesh>
+            </geometry>
+            <meta>
+              <layer>2</layer>
+            </meta>
+          </visual>
+          <self_collide>0</self_collide>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <static>1</static>
+        <pose>5.56074 0.50846 2.82578 0 0 -1.57202</pose>
+      </model>
+      <model name='aws_robomaker_residential_PortraitC_01'>
+        <link name='link'>
+          <inertial>
+            <mass>1</mass>
+          </inertial>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_collision.DAE</uri>
+                <scale>1 1 1</scale>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_visual.DAE</uri>
+              </mesh>
+            </geometry>
+            <meta>
+              <layer>2</layer>
+            </meta>
+          </visual>
+          <self_collide>0</self_collide>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <static>1</static>
+        <pose>4.75235 3.45662 2.83467 0 -0 0</pose>
+      </model>
+      <model name='aws_robomaker_residential_PortraitD_02'>
+        <link name='link'>
+          <inertial>
+            <mass>1.5</mass>
+          </inertial>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_collision.DAE</uri>
+                <scale>1 1 1</scale>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_visual.DAE</uri>
+              </mesh>
+            </geometry>
+            <meta>
+              <layer>2</layer>
+            </meta>
+          </visual>
+          <self_collide>0</self_collide>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <static>1</static>
+        <pose>-2.94321 -2.40583 -0.272788 0 -0 0</pose>
+      </model>
+      <model name='aws_robomaker_residential_Trash_01'>
+        <link name='link'>
+          <inertial>
+            <mass>0.1</mass>
+            <inertia>
+              <ixy>0</ixy>
+              <ixz>0</ixz>
+              <iyz>0</iyz>
+              <ixx>0.05288</ixx>
+              <iyy>0.05288</iyy>
+              <izz>0.09132</izz>
+            </inertia>
+            <pose>0 0 0 0 -0 0</pose>
+          </inertial>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_collision.DAE</uri>
+                <scale>1 1 1</scale>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_visual.DAE</uri>
+              </mesh>
+            </geometry>
+            <meta>
+              <layer>1</layer>
+            </meta>
+          </visual>
+          <self_collide>0</self_collide>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <pose>5.43595 -0.26131 1.32501 0 -0 0</pose>
+      </model>
+      <static>0</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose>6.85794 17.4773 1.67806 0 -0 0</pose>
     </model>
   </world>
 </sdf>
